@@ -1,0 +1,47 @@
+uuid: 534f5733-ec9f-4a65-9bfe-ddd64c4b0fe4
+langcode: fr
+status: true
+dependencies:
+  config:
+    - block_content.type.basic
+    - filter.format.full_html
+    - media.type.image
+    - node.type.reservation
+    - node.type.trajet
+    - taxonomy.vocabulary.ville
+  module:
+    - block_content
+    - filter
+    - media
+    - node
+    - registration_role
+    - roleassign
+    - taxonomy
+    - toolbar
+id: conducteur
+label: Conducteur
+weight: 4
+is_admin: null
+permissions:
+  - 'access content overview'
+  - 'access taxonomy overview'
+  - 'access toolbar'
+  - 'access user profiles'
+  - 'administer account settings'
+  - 'administer permissions'
+  - 'administer registration roles'
+  - 'assign roles'
+  - 'cancel account'
+  - 'change own username'
+  - 'create reservation content'
+  - 'create terms in ville'
+  - 'create trajet content'
+  - 'delete any trajet content'
+  - 'delete own reservation content'
+  - 'delete own trajet content'
+  - 'edit any basic block content'
+  - 'edit own image media'
+  - 'edit own reservation content'
+  - 'edit own trajet content'
+  - 'use text format full_html'
+  - 'view own unpublished content'
